@@ -1,0 +1,99 @@
+/* rootpath: https://infinitypropagation.github.io/InfinityCoder_PrivacyPolicy/*/
+
+@font-face {
+    font-family: 'Alt Aeon';
+    src: url("../assets/fonts/AltAeon-Black.otf");
+}
+
+@font-face {
+    font-family: 'Atomic Age';
+    src: url("../assets/fonts/AtomicAge-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Play Bold';
+    src: url("../assets/fonts/Play-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Play Regular';
+    src: url("../assets/fonts/Play-Regular.ttf");
+}
+
+body {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.title-bar {
+    position: absolute;
+    width: 100vw;
+    height: 10vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1vw;
+}
+
+.title-bar .title-icon {
+    position: relative;
+    width: 4.5vw;
+    height: 4.5vw;
+    border-radius: 1vw;
+}
+
+.title-bar .title-text {
+    position: relative;
+    font-family: 'Alt Aeon'; font-size: 4vw; color: #cc99ff;
+    font-size: 4vw;
+}
+
+.content {
+    position: relative; padding-bottom: 20vh;
+    width: 90%; height: 80vh; box-sizing: border-box;
+    overflow-x: hidden; overflow-y: scroll;
+}
+
+.content .content-row {
+    position: relative; width: 100%; height: auto; margin: 3vw 0 3vw 0;
+    display: flex; flex-direction: column; justify-content: center; align-items: flex-start;
+}
+
+.content .content-row-title {
+    position: relative;
+    width: 90%;
+    height: auto;
+    font-family: 'Play Bold'; color: white; font-size: 3em; text-align: left;
+}
+
+.content .content-row-content {
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-family: 'Play Regular'; color: white; font-size: .65em;
+}
+.highlight-lbl {
+    color: red !important;
+}
+
+.content .content-row-a {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Play Regular'; color: #cc99ff; font-size: 3vw;
+}
+
+.footer {
+    position: fixed; bottom: 0; left: 0; width: 100vw; height: auto; padding: 1vh 10vw 1vh 10vw;
+    display: flex; justify-content: center; align-items: center; background-color: black; box-sizing: border-box;
+    font-family: 'Play Regular'; color: white; font-size: 1em; text-align: center;
+}
