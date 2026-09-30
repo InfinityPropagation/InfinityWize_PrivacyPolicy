@@ -27,7 +27,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: white;
 }
 
 .title-bar {
@@ -51,7 +51,7 @@ body {
 
 .title-bar .title-text {
     position: relative;
-    font-family: 'Alt Aeon'; font-size: 4vw; color: #cc99ff;
+    font-family: 'Alt Aeon'; font-size: 4vw; color: #314347;
     font-size: 4vw;
 }
 
@@ -70,7 +70,7 @@ body {
     position: relative;
     width: 90%;
     height: auto;
-    font-family: 'Play Bold'; color: white; font-size: 3em; text-align: left;
+    font-family: 'Play Bold'; color: black; font-size: 3em; text-align: left;
 }
 
 .content .content-row-content {
